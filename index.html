@@ -4,25 +4,27 @@ body{
     background: #1C3879;
     color: #F9F5EB;
     margin: 50px;
+    font-family: sans-serif;
 }
 
 h1{
     color: #F9F5EB;
     cursor: pointer;
-    transition: 0,2s;
-    font-family: sans-serif;
+    transition: 0.8s;
+    
 }
 
 h1:hover{
     color: #F9F5EB;
     letter-spacing: 1px;
-    font-family: sans-serif;
+    font-size: 35px;
+
 }
 
 a{
     cursor: pointer;
-    transition: 0.2s;
-    width: 100px;
+    transition: 0.5s;
+    width: 120px;
     height: 22px;
     display: flex;
     font-family: sans-serif;
@@ -48,7 +50,7 @@ a{
 }
 a:hover{
     transform: scale(1.1);
-    
+    transition: 0.5s;
 }
 
 img{
@@ -61,8 +63,8 @@ img{
 
 img:hover{
     transform: scale(1.1);
-
-}
+    box-shadow: 0px 0px 10px black;
+    transition: 0.5s;
 
 </style>
 
@@ -79,8 +81,12 @@ img:hover{
 <body>
     <center><h1>Hello World HTML</h1>
     <p>Saya Muhammad Ibnu Syna<br>NIM: 41226083</p>
-    <br><center><img src="foto.jpeg" alt="error image">
-    <br><br><a href="https://instagram.com/ibnu_avcn" target="blank">Instagram</a>
+    <br><center><img src="foto.jpg" alt="error image">
+    <br><br><br><a href="https://instagram.com/ibnu_avcn" target="blank">My Instagram</a>
+
+    <br><div class="tabel1">
+        <a onclick="alert('Lanjutkan ke tabel?')" href="index_tabel.html"> Top 10 Friends</a>
+    </div>
 
 </body>
 </html>
