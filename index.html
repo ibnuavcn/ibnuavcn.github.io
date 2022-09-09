@@ -1,3 +1,4 @@
+
 <style>
 
 body{
@@ -21,38 +22,53 @@ h1:hover{
 
 }
 
+.ig {
+		font-family: sans-serif;
+        font-weight: bold;
+        background-color: white;
+        color: #1C3879;
+        padding: 12px 16px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-decoration: none;
+        transition: 0.5s
+        }
+
+        .ig:hover{
+        	transform: scale(1.1);
+        }
+
 a{
-    cursor: pointer;
-    transition: 0.5s;
-    width: 120px;
-    height: 22px;
-    display: flex;
-    font-family: sans-serif;
-    justify-content: center;
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    text-align: center;
-    border: 3px;
-    background-color: white;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 5px 10px;
-    font-weight: 500px;
-    box-shadow: 2px 2px 5px gray;
-    transition: 0.2s;
-    opacity: 100%;
-    transition: 0,5s;
-    
-}
+	text-decoration: none;
 
 }
-a:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-}
 
+	button{
+		font-family: sans-serif;
+        font-weight: bold;
+		background-color: white;
+        color: #1C3879;
+        padding: 12px 16px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        transition: 0.5s;
+        }
+
+        button:hover{
+        transform: scale(1.1);
+
+        }
+        .tombol{
+        text-align: center;
+        }
 img{
     width: 5cm;
     border-radius: 50%;
@@ -81,11 +97,18 @@ img:hover{
 <body>
     <center><h1>Welcome to my world</h1>
     <p>Saya Muhammad Ibnu Syna<br>NIM: 41226083</p>
-    <br><center><img src="foto.jpeg" alt="error image">
-    <br><br><br><a href="https://instagram.com/ibnu_avcn" target="blank">My Instagram</a>
+     <br><a class="ig" href="https://instagram.com/ibnu_avcn" target="blank">My Instagram</a>
+    <br><br><br><center><img src="foto.jpeg" alt="error image">
 
-    <br><div class="tabel1">
-        <a onclick="alert('Lanjutkan ke tabel?')" href="/p03/bestie_tabel.html"> Top 10 Friends</a>
+    <br><div class="tombol">
+        <a onclick="alert('Apakah kamu ingin menuju ke Top 10 Friends?')" href="../p03/bestie_tabel.html">
+            <button>Top 10 Friends</button>
+        </a>
+        <a onclick="alert('Apakah kamu ingin menuju ke Top 10 Friends Jquery?')" href="../p03css/bestie_css.html">
+            <button>Top 5 Friends CSS</button>
+        </a>
+        <a onclick="alert('Apakah kamu ingin menuju ke Top 5 Friends?')" href="../p03_jquery/jquery.html">
+            <button>Top 5 Friends Jquery</button>
     </div>
 
 </body>
