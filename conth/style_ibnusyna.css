@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+	padding: 100px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.3px;
+	color: #171717;
+
+}
+
+legend{
+    font-weight: bolder; 
+    color: #00AA13;
+    cursor: pointer;
+    transition: 1.0s;
+
+}
+
+th:hover{
+	color: royalblue;
+}
+.kirim{
+    background-color: #00AA13;
+}
+button{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding:6px 14px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.crbn{
+	align-content: right;
+}
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+        box-sizing: border-box;
+    }
+
+    .header img{
+      width: 100%;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+
+    .petunjuk {
+        font-size: 10px;
+    }
+
+    ol li {
+        font-size: 9px;
+    }
+
+    .pembungkus2 {
+        padding: 15px;
+    }
+
+    .judulform {
+        font-size: 15px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .isi {
+        font-size: 9px;
+    }
+
+    .masukkan, select {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    input[type=file] {
+        font-size: 10px;
+    }
+
+    button {
+        padding: 8px 10px;
+        margin: 8px 0;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    
+}
+/* akhir media query */
