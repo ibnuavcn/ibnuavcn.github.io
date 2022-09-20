@@ -43,7 +43,7 @@ button:hover{
 }
 
 /* media query */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 720px) {
     /* For mobile phones: */
     body {
         box-sizing: border-box;
