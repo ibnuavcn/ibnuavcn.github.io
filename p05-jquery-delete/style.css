@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+th{
+    background-color: #576F72;
+    color: #fff;
+}
+
+td{
+    background-color: #E4DCCF;
+    color: #2C3639;
+
+}
+
+td, th{
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+td:first-child{
+    text-align: center;
+}
+
+td:hover{
+    background-color: #2C3639;
+    color: #fff;
+}
+
+.judul{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.judul-tabel{
+    background-color: whitesmoke;
+}
+
+.tombolkembali{
+    text-align: center;
+}
+
+.tombol{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    min-width: 80px;
+}
+
+.tombol:hover{
+    background-color: #45a049;
+}
+
+.tombolback{
+    background-color: #e42528;
+}
+
+.tombolback:hover{
+    background-color: #cf2124;
