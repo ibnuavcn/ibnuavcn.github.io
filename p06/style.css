@@ -1,0 +1,146 @@
+body {
+	font-family: sans-serif;
+}
+
+.utama {
+	width: 900px;
+	margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+	[class="utama"] {
+		width: 100%;
+	}
+}
+
+img {
+	width: 8cm;
+	height: 8cm;
+	object-fit: cover;
+	border-radius: 50%;
+	transition: 0.2s;
+}
+
+img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	box-shadow: 2px 2px 3px gray;
+}
+
+#menuawal {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0e78be;
+	border-radius: 4px;
+	color: white;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.2s;
+	font-size: 20px;
+
+}
+
+li a:hover {
+	color: #111;
+}
+
+.bersihfloat {
+	clear: both;
+}
+
+.isi__1, .isi__2, .isi__3, .isi__4 {
+	background-color: white;
+	padding: 30px;
+	display: none;
+	color: black;
+	text-align: left ;
+	border-radius: 2px;
+}
+
+#contact a {
+	text-decoration: none;
+}
+
+.aktif {
+	font-weight: bold;
+}
+
+.isi__tugas {
+  background-color: white;
+  padding: 30px;
+  color: black;
+  text-align: left ;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.isi__tugas a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.isi__tugas a:hover {
+	background-color: #1C3879;
+	color: white;
+}
+
+.kartu {
+	background-color: white;
+	text-align: center;
+}
+
+.tema {
+	position: relative;
+}
+
+.welkam{
+	font-size: 60px;
+}
+
+.tentangsaya{
+	font-size: 25px;
+}
+
+.ig {
+	font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1C3879;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 27px;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    transition: 0.5s
+}
+
+footer{
+    text-align: center;
+    background-color: #40a8ed38;
+    margin-top: 4rem;
+    padding: 0.5rem 0;
+    text-decoration: none;
+
+}
+.footernama{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
